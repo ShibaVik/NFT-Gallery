@@ -31,7 +31,11 @@
       padding: 2rem;
     }
 
-    .gallery img {
+    .art-piece {
+      text-align: center;
+    }
+
+    .art-piece img {
       width: 100%;
       height: auto;
       border: 3px solid #444;
@@ -39,9 +43,19 @@
       transition: transform 0.3s ease, border-color 0.3s ease;
     }
 
-    .gallery img:hover {
+    .art-piece img:hover {
       transform: scale(1.05);
       border-color: #fff;
+    }
+
+    .art-piece h2 {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .art-piece a {
+      text-decoration: none;
+      color: #00bfff;
     }
 
     footer {
@@ -61,11 +75,33 @@
   </header>
 
   <section class="gallery">
-    <img src="images/art1.jpg" alt="Œuvre 1">
-    <img src="images/art2.jpg" alt="Œuvre 2">
-    <img src="images/art3.jpg" alt="Œuvre 3">
-    <img src="images/art4.jpg" alt="Œuvre 4">
-    <!-- Ajoute d'autres images ici -->
+    <div class="art-piece">
+      <a href="https://linktr.ee/ShibaVik" target="_blank">
+        <img src="images/art1.jpg" alt="Œuvre 1">
+      </a>
+      <h2>Œuvre 1</h2>
+    </div>
+
+    <div class="art-piece">
+      <a href="https://linktr.ee/ShibaVik" target="_blank">
+        <img src="images/art2.jpg" alt="Œuvre 2">
+      </a>
+      <h2>Œuvre 2</h2>
+    </div>
+
+    <div class="art-piece">
+      <a href="https://linktr.ee/ShibaVik" target="_blank">
+        <img src="EB3FCD37-54D8-4733-8C49-34094C8283C1.png" alt="SF90 ShibaVik Racer">
+      </a>
+      <h2>SF90 ShibaVik Racer</h2>
+    </div>
+
+    <div class="art-piece">
+      <a href="https://linktr.ee/ShibaVik" target="_blank">
+        <img src="CDC3A8F3-638D-4F73-A702-5C10EDBA3832.png" alt="488 Pista ShibaVik Racer">
+      </a>
+      <h2>488 Pista ShibaVik Racer</h2>
+    </div>
   </section>
 
   <footer>
